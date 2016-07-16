@@ -1,0 +1,22 @@
+<div class="container-login">
+    <div layout="column" class="loginBox md-whiteframe-z1">
+        <md-toolbar>
+            <h2 class="md-toolbar-tools"><span>Login</span></h2>
+        </md-toolbar>
+        <md-content layout="column" class="md-padding">
+            <md-input-container>
+                <label>{{'label.username' | translate}}</label>
+                <input type="text" ng-model="username"/>
+            </md-input-container>
+            <md-input-container>
+                <label>{{'label.password' | translate}}</label>
+                <input type="password" ng-model="password"/>
+            </md-input-container>
+            <div layout="row" layout-align="center center" style="padding-top:20px;">
+                <md-button class="md-raised md-primary" ng-click="login('oauth2')">{{'label.login' | translate}}</md-button>
+                <div flex="flex"></div>
+                <md-button href="" md-no-ink="md-no-ink">{{'label.pass_forgot' | translate}}</md-button>
+            </div>
+        </md-content>
+    </div>
+</div>

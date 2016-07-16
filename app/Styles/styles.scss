@@ -1,0 +1,23 @@
+@import "_variables";
+
+body {
+  background-color: $lightgrey;
+}
+
+.ng-scope {
+  height: 90%;
+}
+
+.container-login {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginBox {
+  max-width:  90%;
+  width: 500px
+}
